@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4716DC7D1EF8B6F70032AB6C /* CollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4716DC7C1EF8B6F70032AB6C /* CollectionReusableView.m */; };
 		47F340581EF7D3BA00F1E6D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F340571EF7D3BA00F1E6D9 /* main.m */; };
 		47F3405B1EF7D3BA00F1E6D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F3405A1EF7D3BA00F1E6D9 /* AppDelegate.m */; };
 		47F3405E1EF7D3BA00F1E6D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F3405D1EF7D3BA00F1E6D9 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		47F340661EF7D3BA00F1E6D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F340641EF7D3BA00F1E6D9 /* LaunchScreen.storyboard */; };
 		47F340711EF7D3BA00F1E6D9 /* test_collection_horizontalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F340701EF7D3BA00F1E6D9 /* test_collection_horizontalTests.m */; };
 		47F3407C1EF7D3BA00F1E6D9 /* test_collection_horizontalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F3407B1EF7D3BA00F1E6D9 /* test_collection_horizontalUITests.m */; };
+		47F3408C1EF7D5F800F1E6D9 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F3408A1EF7D5F800F1E6D9 /* CollectionViewCell.m */; };
+		47F3408D1EF7D5F800F1E6D9 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47F3408B1EF7D5F800F1E6D9 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4716DC7B1EF8B6F70032AB6C /* CollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionReusableView.h; sourceTree = "<group>"; };
+		4716DC7C1EF8B6F70032AB6C /* CollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableView.m; sourceTree = "<group>"; };
 		47F340531EF7D3BA00F1E6D9 /* test_collection_horizontal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_collection_horizontal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F340571EF7D3BA00F1E6D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47F340591EF7D3BA00F1E6D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		47F340771EF7D3BA00F1E6D9 /* test_collection_horizontalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_collection_horizontalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F3407B1EF7D3BA00F1E6D9 /* test_collection_horizontalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_collection_horizontalUITests.m; sourceTree = "<group>"; };
 		47F3407D1EF7D3BA00F1E6D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F340891EF7D5F800F1E6D9 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		47F3408A1EF7D5F800F1E6D9 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		47F3408B1EF7D5F800F1E6D9 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,11 @@
 				47F3405A1EF7D3BA00F1E6D9 /* AppDelegate.m */,
 				47F3405C1EF7D3BA00F1E6D9 /* ViewController.h */,
 				47F3405D1EF7D3BA00F1E6D9 /* ViewController.m */,
+				4716DC7B1EF8B6F70032AB6C /* CollectionReusableView.h */,
+				4716DC7C1EF8B6F70032AB6C /* CollectionReusableView.m */,
+				47F340891EF7D5F800F1E6D9 /* CollectionViewCell.h */,
+				47F3408A1EF7D5F800F1E6D9 /* CollectionViewCell.m */,
+				47F3408B1EF7D5F800F1E6D9 /* CollectionViewCell.xib */,
 				47F3405F1EF7D3BA00F1E6D9 /* Main.storyboard */,
 				47F340621EF7D3BA00F1E6D9 /* Assets.xcassets */,
 				47F340641EF7D3BA00F1E6D9 /* LaunchScreen.storyboard */,
@@ -248,6 +261,7 @@
 			files = (
 				47F340661EF7D3BA00F1E6D9 /* LaunchScreen.storyboard in Resources */,
 				47F340631EF7D3BA00F1E6D9 /* Assets.xcassets in Resources */,
+				47F3408D1EF7D5F800F1E6D9 /* CollectionViewCell.xib in Resources */,
 				47F340611EF7D3BA00F1E6D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				47F3405E1EF7D3BA00F1E6D9 /* ViewController.m in Sources */,
+				4716DC7D1EF8B6F70032AB6C /* CollectionReusableView.m in Sources */,
 				47F3405B1EF7D3BA00F1E6D9 /* AppDelegate.m in Sources */,
+				47F3408C1EF7D5F800F1E6D9 /* CollectionViewCell.m in Sources */,
 				47F340581EF7D3BA00F1E6D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +523,7 @@
 				47F340821EF7D3BA00F1E6D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47F340831EF7D3BA00F1E6D9 /* Build configuration list for PBXNativeTarget "test_collection_horizontalTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +532,7 @@
 				47F340851EF7D3BA00F1E6D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47F340861EF7D3BA00F1E6D9 /* Build configuration list for PBXNativeTarget "test_collection_horizontalUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +541,7 @@
 				47F340881EF7D3BA00F1E6D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
